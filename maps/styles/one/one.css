@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container .navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.2rem;
+}
+.container .navbar h1 {
+  text-align: left;
+  margin: 2rem 0;
+}
+.container .navbar .menu-btn {
+  background-color: white;
+  font-size: 20px;
+  padding: 1rem;
+}
+.container .navbar .menu-btn:hover {
+  cursor: pointer;
+}
+.container .img-container {
+  height: 90vh;
+  overflow: scroll;
+}
+.container .img-container img {
+  height: 140%;
+}
+.container .modal-window {
+  z-index: 100;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container .modal-window .modal-content {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.container .modal-window .modal-content .close-btn {
+  width: 80%;
+  height: 2rem;
+  margin-top: 1rem;
+}
+.container .modal-window .modal-content button {
+  height: 3rem;
+  width: 90%;
+  margin: 0.5rem 0;
+}
+.container .modal-window .modal-content button:hover {
+  cursor: pointer;
+}
+.container .modal-window .modal-content button img {
+  height: 100%;
+  width: 100%;
+}
+.container .modal-window .modal-content #legenda-img {
+  height: 9rem;
+  width: 90%;
+  margin-top: 1rem;
+}
+.container .modal-window .modal-content #legenda-img img {
+  height: 100%;
+  width: 100%;
+}
+.container .info-modal {
+  z-index: 100;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container .info-modal .info-content {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7rem;
+  background-color: white;
+}
+.container .info-modal .info-content h1 {
+  margin-bottom: 1rem;
+}
+.container .info-modal .close-btn {
+  width: 80%;
+  height: 2rem;
+  margin-top: 1rem;
+}
+.container .hidden {
+  display: none;
+}/*# sourceMappingURL=one.css.map */

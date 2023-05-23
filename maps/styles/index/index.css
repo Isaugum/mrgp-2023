@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h3 {
+  margin-bottom: 6rem;
+}
+
+.container a {
+  font-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  border: solid black 1px;
+  padding: 2rem 6rem;
+}/*# sourceMappingURL=index.css.map */
